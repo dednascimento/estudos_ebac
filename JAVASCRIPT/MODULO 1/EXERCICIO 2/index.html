@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>EXERCÍCIO DE CÁLCULO</title>
 </head>
 <body>
-    
+    <div class="content">
+        <div class="forms">
+            <div class="for">
+                <form>
+                    <div class="campos">
+                        <h3 class="title">DIGITE OS NÚMEROS ABAIXO:</h3 class="title">
+
+                        <div class="campo">
+                            Número 1: 
+                            <input type="number" class="textc" id="a" placeholder="Digite o primeiro número">
+                        </div>
+
+                        <div class="campo">
+                            Número 2: 
+                            <input type="number" class="textc" id="b" placeholder="Digite o segundo número">
+                        </div>
+
+                        <div class="campo">
+                            Número 3: 
+                            <input type="number" class="textc" id="c" placeholder="Digite o terceiro número">
+                        </div>
+
+                        <div class="button">
+                            <input type="button" id="enviar" onclick="obterMedia()" value="CALCULAR MÉDIA">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div id="resultado">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./main.js"></script>
 </body>
 </html>
